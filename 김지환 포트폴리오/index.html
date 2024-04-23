@@ -207,10 +207,10 @@
     clickable: true,
     renderBullet: function (index, className) {
       var images = [
-        "..//image/tistory.svg",
-        "..//image/github.svg",
-        "..//image/notion.svg",
-        "..//image/tistory.svg"
+        "/image/tistory.svg",
+        "/image/github.svg",
+        "/image/notion.svg",
+        "/image/tistory.svg"
       ];
       // 페이지네이션에서 이미지를 사용하여 불릿 생성
       return '<span class="' + className + '"><img src="' + images[index] + '" style="width: 100%; height: auto;"></span>';
@@ -224,10 +224,10 @@
       // 모든 페이지네이션 불릿을 원래 이미지로 되돌림
       paginationBullets.forEach((bullet, index) => {
         var images = [
-          "..//image/tistory.svg",
-          "..//image/github.svg",
-          "..//image/notion.svg",
-          "..//image/tistory.svg"
+          "/image/tistory.svg",
+          "/image/github.svg",
+          "/image/notion.svg",
+          "/image/tistory.svg"
         ];
         bullet.innerHTML = '<img src="' + images[index] + '" style="width: 100%; height: auto;">';
       });
