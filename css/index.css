@@ -213,6 +213,7 @@ main {
 }
 @media screen and (max-width: 1279px){
     main {
+        display: none;
         /* max-width: 1920px; */
         height: auto;
         margin: 0 auto;
