@@ -213,7 +213,6 @@ main {
 }
 @media screen and (max-width: 1279px){
     main {
-        display: none;
         /* max-width: 1920px; */
         height: auto;
         margin: 0 auto;
@@ -414,6 +413,9 @@ main {
             }
         }
         
+    }
+    #mobile{
+        display: none;
     }
 }
 @media screen and (max-width: 768px){
