@@ -7,7 +7,7 @@ body{
 }
 
 main {
-    max-width: 1920px;
+    /* max-width: 1920px; */
     height: auto;
     margin: 0 auto;
     box-sizing: border-box;
@@ -64,10 +64,13 @@ main {
                     h3 {
                         margin-bottom: 40px;
                     }
-                    p{
-                        font-size: 1.125em;
-                        line-height: 1.25;
-                        margin-bottom: 10px;
+                    .detail{
+                        
+                        p{
+                            font-size: 1.125em;
+                            line-height: 1.25;
+                            margin-bottom: 10px;
+                        }
                     }
                 }
                 span{
@@ -116,11 +119,15 @@ main {
                 /* min-width: 420px; */
                 height: auto;
                 /* height: auto; */
+                
     
                 img{
                     object-fit: cover;
                     width: 100%;
                     height: 100%;
+                    display: block;
+                    transition: all 0.5 ease;
+
                 }
             }
         }
@@ -176,8 +183,8 @@ main {
     }
     
     .swiper-pagination-bullet-active {
-        color: #fff;
-        background: #007aff;
+        /* color: #fff; */
+        /* background: #007aff; */
         width: 100px !important;
         height: 100px !important;
         border-radius: 10px;
@@ -191,4 +198,7 @@ main {
         }
     }
     
+}
+@media screen and (max-width: 1279px){
+
 }
