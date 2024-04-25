@@ -477,7 +477,7 @@ main {
                 ul{
                     display: flex;
                     flex-direction: column;
-                    gap: 20px;
+                    gap: 10px;
                     li{
                         /* width: 100px; */
                         
