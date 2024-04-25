@@ -90,21 +90,22 @@ main {
                         display: inline-block;
                         align-items: center;
                         font-size: 1.125em;
-                        border: 1px solid #222;
+                        border: 1px solid #007bff;
                         padding: 10px 20px;
-                        border-radius: 25px;
+                        border-radius: 10px;
                         font-weight: 400;
                         white-space: nowrap;
+                        color: #007bff;
                         
                         i{
                             font-size: 0.875em;
                             margin-left: 5px;
-    
+                            color: #007bff !important;
                             
                         }
     
                         &:hover{
-                            background-color: #222;
+                            background-color: #007bff;
                             color: #fff;
     
                             & i{
