@@ -443,7 +443,7 @@ main {
             justify-content: center;
 
             .thum{
-                width: 200px;
+                width: 180px;
                 display: flex;
                 margin: 0 auto;
                 justify-content: center;
@@ -482,7 +482,7 @@ main {
                         /* width: 100px; */
                         
                         a{
-                            width: 200px;
+                            width: 180px;
                             color: #007bff;
                             font-size: 1.25em;
                             display: inline-block;
