@@ -455,7 +455,7 @@ main {
                 justify-content: center;
                 align-items: center;
                 overflow: hidden;
-                border-radius: 50%;
+                border-radius: 90px;
             }
             .desc{
                 color: #222;
