@@ -312,22 +312,28 @@ main {
     #mobile {
         display: flex;
         /* align-items: center; */
-        padding: 20px;
-        height: 100%;
+        padding: 40px;
+        /* height: 100vh; */
+        width: 100%;
+        box-sizing: border-box;
+        margin: 0 auto;
         justify-content: center;
         /* box-sizing: border-box; */
-        flex-grow: 1;
 
         .inner {
             background-color: rgba(255, 255, 255, 0.85);
             border-radius: 20px;
             /* margin: 0 auto; */
             width: 100%;
+            height: auto;
             display: flex;
             flex-direction: column;
             text-align: center;
             justify-content: center;
             padding: 20px;
+            flex-grow: 1;
+            flex-basis: 1;
+            margin: 0 auto;
 
             .thum {
                 width: 100%;
@@ -436,15 +442,18 @@ main {
                     margin: 0 auto;
                     /* padding-inline: 20px; */
                     gap: 20px;
+                    flex-grow: 1;
 
                     a{
-                        display: block;
+                        display: inline;
                         font-size: 1.125em;
                         background-color: #007bff;
                         color: #fff;
                         line-height: 40px;
                         border-radius: 5px;
-                        padding-inline: 40px;
+                        /* padding-inline: 40px; */
+                        width: 100%;
+
                         white-space: nowrap;
                         flex-grow: 1;
 
@@ -456,7 +465,7 @@ main {
                         color: #007bff;
                         line-height: 40px;
                         border-radius: 5px;
-                        padding-inline: 40px;
+                        /* padding-inline: 40px; */
                         border: 1px solid #007bff;
                         }
 
