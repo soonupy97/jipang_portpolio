@@ -4,6 +4,7 @@ body {
     height: 100%;
     background: url("../image/body_img.png") no-repeat center center / cover;
     /* background-color: #007aff; */
+    font-family: "Pretendard";
 }
 
 main {
@@ -350,7 +351,7 @@ main {
             .desc {
                 color: #222;
                 line-height: 1.25;
-                margin-bottom: 15px;
+                /* margin-bottom: 15px; */
                 text-align: left;
                 margin-left: 20px;
 
@@ -371,6 +372,8 @@ main {
                 .skills{
                     display: flex;
                     gap: 10px;
+                    margin-bottom: 15px;
+
 
                     p{
                         display: block;
@@ -384,7 +387,6 @@ main {
                 p {
                     font-size: 1em;
                     font-weight: 200;
-                    margin-bottom: 15px;
 
                 }
                 span{
@@ -401,25 +403,65 @@ main {
                     display: flex;
                     flex-direction: column;
                     gap: 15px;
+                    padding: 20px;
                     li {
                         /* width: 100px; */
 
                         a {
-                            width: 180px;
-                            color: #007bff;
+                            display: block;
+                            width: 100%;
+                            color: #555;
                             font-size: 1em;
                             display: inline-block;
                             box-sizing: border-box;
                             line-height: 40px;
-                            border: 1px solid #007bff;
+                            border: 1px solid #555;
                             /* padding: 1.5vw 4vw; */
                             border-radius: 5px;
 
                             &:hover {
-                                background-color: #007bff;
+                                background-color: #555;
                                 color: #fff;
                             }
                         }
+                    }
+                }
+                .resume{
+                    display: flex;
+                    justify-content: space-between;
+                    margin: 0 auto;
+                    padding-inline: 20px;
+
+                    a{
+                        display: block;
+                        font-size: 1.125em;
+                        background-color: #007bff;
+                        color: #fff;
+                        line-height: 40px;
+                        border-radius: 5px;
+                        padding-inline: 40px;
+
+                        &:nth-of-type(2){
+                            display: block;
+                        font-size: 1.125em;
+                        background-color: transparent;
+                        color: #007bff;
+                        line-height: 40px;
+                        border-radius: 5px;
+                        padding-inline: 40px;
+                        border: 1px solid #007bff;
+                        }
+
+
+                        i{
+                            margin-left: 5px;
+                            font-size: 0.75em;
+                        }
+
+                        /* &:hover {
+                            background-color: #007bff;
+                            color: #fff;
+                        } */
                     }
                 }
             }
