@@ -56,6 +56,58 @@
     <main>
         <div class="swiper mySwiper">
             <div class="swiper-wrapper">
+                <div class="swiper-slide notion">
+                    <div class="inner">
+                        <div class="logo"><img src="image/notion.svg" alt=""></div>
+                        <div class="desc">
+                            <div class="textbox">
+                                <h2>
+                                    NOTION
+                                </h2>
+                                <h3>??????</h3>
+                                <div class="detail">
+                                    <span>
+                                        <h4>NAME</h4>
+                                        <p>홍길동</p>
+                                    </span>
+                                    <span>
+                                        <h4>AGE</h4>
+                                        <p>0000. 00. 00</p>
+                                    </span>
+                                    <span>
+                                        <h4>SKILLS</h4>
+                                        <div class="lang">
+                                            <p>Language | Java, Python</p>
+                                            <p>Framework | Spring framework, Django</p>
+                                            <p>DB | PostgreSQL, MySQL</p>
+                                            <p>AWS | EC2, Route 53</p>
+                                            <p>Docker</p>
+                                        </div>
+                                    </span>
+                                    <span>
+                                        <h4>CAREERS</h4>
+                                        <p>디어젠 | 22.11.14 ~ 24.01.31</p>
+                                    </span>
+                                    </div>
+                                </div>
+                                <span>
+                                    <a href="https://www.notion.so/07a87899bfc046de9baa15e99047ae86">
+                                         VIEW INTRODUCE
+                                        <i class="fa-solid fa-arrow-up-right-from-square" style="color: #222;"></i>
+                                        <!-- <i class="fa-solid fa-chevron-right"></i> -->
+                                    </a>
+                                    <a href="https://www.notion.so/b58387b30ed24422ab97b273c2d7e0e9">
+                                        VIEW RESUME
+                                        <i class="fa-solid fa-arrow-up-right-from-square" style="color: #222;"></i>
+                                        <!-- <i class="fa-solid fa-chevron-right"></i> -->
+                                    </a>
+                                </span>
+                            </div>
+                            <div class="img_box">
+                                <img src="image/body_img.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
                 <div class="swiper-slide tistory">
                     <div class="inner">
                         <div class="logo"><img src="image/tistory.svg" alt="tistory"></div>
@@ -124,38 +176,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="swiper-slide notion">
-                            <div class="inner">
-                                <div class="logo"><img src="image/notion.svg" alt=""></div>
-                                <div class="desc">
-                                    <div class="textbox">
-                                        <h2>
-                                            NOTION
-                                        </h2>
-                                        <h3>??????</h3>
-                                        <div class="detail">
-                                            <p>노션에서는 제가 경험한 내용들을 담아냅니다. </p>
-                                            <p>제가 어떤 사람인지 잘 나타나 있는 자기소개서와 이력서를 확인할 수 있습니다.</p>
-                                            </div>
-                                        </div>
-                                        <span>
-                                            <a href="https://www.notion.so/07a87899bfc046de9baa15e99047ae86">
-                                                 VIEW INTRODUCE
-                                                <i class="fa-solid fa-arrow-up-right-from-square" style="color: #222;"></i>
-                                                <!-- <i class="fa-solid fa-chevron-right"></i> -->
-                                            </a>
-                                            <a href="https://www.notion.so/b58387b30ed24422ab97b273c2d7e0e9">
-                                                VIEW RESUME
-                                                <i class="fa-solid fa-arrow-up-right-from-square" style="color: #222;"></i>
-                                                <!-- <i class="fa-solid fa-chevron-right"></i> -->
-                                            </a>
-                                        </span>
-                                    </div>
-                                    <div class="img_box">
-                                        <img src="image/body_img.jpg" alt="">
-                                    </div>
-                                </div>
-                            </div>
+                        
                             <div class="swiper-slide unknown">
                                 <div class="inner">
                                     <div class="logo"><img src="image/tistory.svg" alt=""></div>
@@ -206,6 +227,12 @@
                                 <h2>jipaaaang</h2>
                                 <h3>storage</h3>
                                 <p>개 걸레련 ㅇㅈ? ㅇㅇㅈ</p>
+                                <em>Skills</em>
+                                <span>
+                                    <p>JAVA</p>
+                                    <p>PYTHON</p>
+                                    <p>JAVASCRIPT</p>
+                                </span>
                             </div>
                             <div class="work">
                                 <ul>
@@ -228,7 +255,7 @@
                                 el: ".swiper-pagination",
                                 clickable: true,
                                 renderBullet: function (index, className) {
-                                    var images = ["image/tistory.svg", "image/github.svg", "image/notion.svg", "image/tistory.svg"];
+                                    var images = ["image/notion.svg", "image/tistory.svg", "image/github.svg", "image/tistory.svg"];
                                     // 페이지네이션에서 이미지를 사용하여 불릿 생성
                                     return '<span class="' + className + '"><img src="' + images[index] + '" style=' +
                                             '"width: 100%; height: auto;"></span>';
