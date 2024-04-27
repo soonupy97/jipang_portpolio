@@ -313,19 +313,21 @@ main {
         display: flex;
         /* align-items: center; */
         padding: 20px;
-        height: 100vh;
+        height: 100%;
+        justify-content: center;
         /* box-sizing: border-box; */
+        flex-grow: 1;
 
         .inner {
             background-color: rgba(255, 255, 255, 0.85);
             border-radius: 20px;
-
             /* margin: 0 auto; */
             width: 100%;
             display: flex;
             flex-direction: column;
             text-align: center;
-            justify-content: start;
+            justify-content: center;
+            padding: 20px;
 
             .thum {
                 width: 100%;
@@ -335,7 +337,7 @@ main {
                 align-items: center;
                 overflow: hidden;
                 border-radius: 20px;
-                padding: 20px 20px 0;
+                /* padding: 20px 20px 0; */
                 box-sizing: border-box;
                 /* flex-grow: 1; */
                 justify-content: start;
@@ -353,7 +355,8 @@ main {
                 line-height: 1.25;
                 /* margin-bottom: 15px; */
                 text-align: left;
-                margin-left: 20px;
+                /* margin-left: 20px; */
+                margin-bottom: 20px;
 
                 h2 {
                     margin-top: 20px;
@@ -402,8 +405,9 @@ main {
                 ul {
                     display: flex;
                     flex-direction: column;
-                    gap: 15px;
-                    padding: 20px;
+                    gap: 20px;
+                    /* padding: 20px; */
+                    margin-bottom: 20px;
                     li {
                         /* width: 100px; */
 
@@ -430,7 +434,8 @@ main {
                     display: flex;
                     justify-content: space-between;
                     margin: 0 auto;
-                    padding-inline: 20px;
+                    /* padding-inline: 20px; */
+                    gap: 20px;
 
                     a{
                         display: block;
@@ -440,6 +445,9 @@ main {
                         line-height: 40px;
                         border-radius: 5px;
                         padding-inline: 40px;
+                        white-space: nowrap;
+                        flex-grow: 1;
+
 
                         &:nth-of-type(2){
                             display: block;
