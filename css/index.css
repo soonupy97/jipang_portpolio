@@ -310,6 +310,7 @@ main {
         display: none;
     }
     #mobile {
+        height: 100vh;
         display: flex;
         /* align-items: center; */
         padding: 20px;
