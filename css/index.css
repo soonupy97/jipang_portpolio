@@ -338,6 +338,7 @@ main {
 
             .thum {
                 width: 100%;
+                height: auto;
                 display: flex;
                 margin: 0 auto;
                 justify-content: center;
@@ -345,7 +346,7 @@ main {
                 overflow: hidden;
                 border-radius: 20px;
                 /* padding: 20px 20px 0; */
-                box-sizing: border-box;
+                /* box-sizing: border-box; */
                 /* flex-grow: 1; */
                 justify-content: start;
 
@@ -433,6 +434,9 @@ main {
                             &:hover {
                                 background-color: #555;
                                 color: #fff;
+                            }
+                            i{
+                                margin-left: 5px;
                             }
                         }
                     }
