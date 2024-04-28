@@ -414,10 +414,9 @@ main {
                     font-weight: 700;
                 }
                 h3 {
-                    margin-top: 10px;
-                    font-size: 1.25em;
+                    margin-top: 5px;
+                    font-size: 1.125em;
                     font-weight: 300;
-                    margin-bottom: 15px;
                     line-height: 1;
                     color: #333;
 
@@ -425,7 +424,7 @@ main {
                 .skills{
                     display: flex;
                     gap: 10px;
-                    margin-bottom: 15px;
+                    margin-block: 15px;
                     flex-wrap: wrap;
 
 
@@ -442,13 +441,6 @@ main {
                     font-size: 1em;
                     font-weight: 200;
 
-                }
-                span{
-                    font-size: 1em;
-                    margin-bottom: 10px;
-                }
-                em {
-                    font-size: 1em;
                 }
             }
             .work {
